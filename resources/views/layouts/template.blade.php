@@ -16,12 +16,6 @@
   <!-- Favicons -->
     <link href="/assets/img/logo/image.png" rel="icon">
 
-  {{-- <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> --}}
-
-  <!-- Google Fonts -->
-  {{-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> --}}
-
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,13 +24,6 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  {{-- eterna --}}
-  {{-- <link href="eterna/assets/img/favicon.png" rel="icon">
-  <link href="eterna/assets/img/apple-touch-icon.png" rel="apple-touch-icon"> --}}
-
-  <!-- Google Fonts -->
-  {{-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> --}}
 
   <!-- Vendor CSS Files -->
   <link href="eterna/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -60,7 +47,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="w-[350px]">
-        <a href="index.html">
+        <a href="/">
         <img src="assets/img/logo/logo1.png" alt="" class="img-fluid"></a>
       </div>
 
@@ -115,7 +102,7 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url(eterna/assets/img/slide/slide-2.jpg)">
+          <div class="carousel-item" style="background-image: url(/assets/img/logo/slide-3.jpg)">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated fanimate__adeInDown">Kenapa harus <span>SDM Kaliwates?</span></h2>
@@ -126,7 +113,7 @@
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url(eterna/assets/img/slide/slide-3.jpg)">
+          <div class="carousel-item" style="background-image: url(/assets/img/logo/slide-1.jpg)">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">Ingin mendapatkan <span>pendidikan terbaik?</span></h2>
@@ -219,7 +206,7 @@
         <div class="container">
 
           <div class="section-title" data-aos="fade-up">
-            <h2 class="py-8 mt-14">Informasi Biaya</h2>
+            <h2 class="flex items-center justify-center">Informasi Biaya</h2>
             <p>Rincian biaya sekolah sdm muhammadiyah kaliwates</p>
           </div>
 

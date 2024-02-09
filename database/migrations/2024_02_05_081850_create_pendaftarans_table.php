@@ -58,7 +58,7 @@ return new class extends Migration
             $table->date("tanggal_lahir_ayah")->nullable();
             $table->string("pendidikan_terakhir_ayah",255)->nullable();
             $table->string("pekerjaan_ayah",100)->nullable();
-            $table->bigInteger("penghasilan_per_bulan_ayah")->nullable();
+            $table->string("penghasilan_per_bulan_ayah")->nullable();
             $table->string("berkebutuhan_khusus_ayah",100)->nullable();
             $table->string("alamat_ayah",255)->nullable();
             $table->bigInteger("no_hp_ayah")->nullable();
@@ -68,7 +68,7 @@ return new class extends Migration
             $table->date("tanggal_lahir_ibu")->nullable();
             $table->string("pendidikan_terakhir_ibu",255)->nullable();
             $table->string("pekerjaan_ibu",100)->nullable();
-            $table->bigInteger("penghasilan_per_bulan_ibu")->nullable();
+            $table->string("penghasilan_per_bulan_ibu")->nullable();
             $table->string("berkebutuhan_khusus_ibu")->nullable();
             $table->string("alamat_ibu",255)->nullable();
             $table->bigInteger("no_hp_ibu")->nullable();
@@ -78,7 +78,7 @@ return new class extends Migration
             $table->date("tanggal_lahir_wali")->nullable();
             $table->string("pendidikan_terakhir_wali",255)->nullable();
             $table->string("pekerjaan_wali",100)->nullable();
-            $table->bigInteger("penghasilan_per_bulan_wali")->nullable();
+            $table->string("penghasilan_per_bulan_wali")->nullable();
             $table->string("alamat_wali",255)->nullable();
             $table->bigInteger("no_hp_wali")->nullable();
             $table->timestamps();
